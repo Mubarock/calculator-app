@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display">
+          <p class="content">0</p>
+        </div>
+        <div class="button is-depresssed">
+          <button class="btn operator" data-action="allClear">AC</button>
+          <button class="btn operator" data-action="delete">DE</button>
+          <button class="btn operator" data-action="percent">&percnt;</button>
+          <button class="btn sign" data-action="divide">/</button>
+
+          <button class="btn digit">7</button>
+          <button class="btn digit">8</button>
+          <button class="btn digit">9</button>
+          <button class="btn sign" data-action="times" dir="ltr">*</button>
+
+          <button class="btn digit">4</button>
+          <button class="btn digit">5</button>
+          <button class="btn digit">6</button>
+          <button class="btn sign" data-action="minus">-</button>
+
+          <button class="btn digit">1</button>
+          <button class="btn digit">2</button>
+          <button class="btn digit">3</button>
+          <button class="btn sign" data-action="plus">&plus;</button>
+
+          <button class="btn digit" id="zero">0</button>
+          <button class="btn digit" data-action="comma">.</button>
+          <button class="btn sign" data-action="calc">&equals;</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

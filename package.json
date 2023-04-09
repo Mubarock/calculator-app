@@ -1,0 +1,14 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "ios-calculator-app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tijani Mubarak",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

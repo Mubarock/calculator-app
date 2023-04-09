@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgb(64, 63, 63);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
+  width: 70rem;
+}
+
+.display {
+  width: 92%;
+  margin: 100px 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  background-color: rgb(86, 80, 80);
+}
+
+.display p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  flex: 1;
+  max-height: 25rem;
+  width: 100%;
+  color: white;
+  font-size: 180px;
+}
+
+.display::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.is-depressed :active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  cursor: pointer;
+  min-height: 210px;
+  min-width: 210px;
+  border-radius: 100px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#zero {
+  grid-column-end: span 2;
+}
+
+.digit {
+  background-color: rgb(72, 71, 71);
+  color: white;
+  font-size: 100px;
+}
+
+.sign {
+  background-color: rgb(255, 149, 0);
+  color: white;
+  font-size: 100px;
+}
+
+.operator {
+  background-color: rgb(146, 146, 146);
+  font-size: 100px;
+}
